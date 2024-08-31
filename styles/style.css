@@ -1,0 +1,87 @@
+.banner {
+    text-align: center;
+    max-width: 998px;
+    margin: 0 auto;
+}
+
+.Azeret-mono {
+    font-family: "Azeret Mono";
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 800px;
+}
+
+.banner-description {
+    font-size: 16px;
+    max-width: 852px;
+    margin: 32px;
+
+}
+
+.btn-primary {
+    padding: 21px 24px 21px 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #0D1321;
+}
+
+header {
+    background-image: url('../image/Hero-bg.png');
+}
+
+.web-title {
+    font-size: 32px;
+    font-weight: 800px;
+}
+
+.web-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.web {
+    text-align: center;
+    max-width: 998px;
+    margin: 0 auto;
+}
+
+.btn-high {
+    font-size: 20px;
+    padding: 12px 2opx 12px 2opx;
+    font-weight: 600;
+}
+
+.skills-one {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.skill-one-man {
+    max-width: 477px;
+}
+
+.skills-Two {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.skill-Two-man {
+    max-width: 477px;
+}
+.skill-Three-man{
+    max-width: 477px;
+}
+.skills-Three{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto ;
+}
