@@ -11,12 +11,14 @@
     font-style: normal;
 }
 
-.banner-title {
+.banner-titel{
     font-size: 48px;
-    font-weight: 800px;
+    font-weight: 900;
+    width: 998px;
+    height: 136px;
 }
 
-.banner-description {
+.banner-description{
     font-size: 16px;
     max-width: 852px;
     margin: 32px;
@@ -29,10 +31,19 @@
     font-size: 20px;
     font-weight: 600px;
     background-color: #0D1321;
+    border-radius: 8px;
 }
 
 header {
     background-image: url('../image/Hero-bg.png');
+}
+.web-develop{
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid aqua;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
 }
 
 .web-title {
@@ -45,17 +56,19 @@ header {
     font-weight: 400;
 }
 
-.web {
+ .web {
     text-align: center;
     max-width: 998px;
-    margin: 0 auto;
-}.boss{
-    text-align: center;
-    max-width:998px ;
+    margin: 0 auto; }
+.boss{
+     text-align: center;
+    max-width:  1140px;  
     margin: 0 auto;
 }
 .boss-2{
-    margin: 48px;
+    border-radius: 16px;
+    padding: 32px;
+
 }
 
 .boss-title{
@@ -64,7 +77,11 @@ header {
 }
 .boss-description{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400; 
+     width: 852px;
+    height: 52px;
+    text-align: center; 
+    margin: 0 auto;
 }
 
 .btn-high {
@@ -72,24 +89,41 @@ header {
     padding: 12px 2opx 12px 2opx;
     font-weight: 600;
 }
-
+.skills-develop{
+    border: 1px solid black;
+    max-width: 852px;
+    margin:65px auto;
+}
+.web-content{
+    text-align: center;
+}
 .skills-one {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    width: 852px;
+    height: 336px;
+    border-radius: 16px;
     background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border: 1px solid gold;
+    margin: 30px auto;
+    
 
 }
 
-.skill-one-man {
+.skill-one-man{
     max-width: 477px;
 }
 
 .skills-Two {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    justify-content: space-between; 
+    width: 852px;
+    height: 336px;
+    border-radius: 16px;
     background-color: #FFFFFF;
+    margin: 30px auto;
+    
 }
 
 .skill-Two-man {
@@ -101,15 +135,108 @@ header {
 .skills-Three{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto ;
-}
-.web{
-    max-width: 1140px;
-    margin: 84px 148px 101px 152px;
+    width: 852px;
+    height: 336px;
     border-radius: 16px;
-    background-color: rgba(13, 19, 33, 0.02)
-
+    background-color: #FFFFFF;
+    margin: 30px auto;
 }
 .oppo{
     background-color: rgba(13, 19, 33, 0.02);
+}
+div ul li {
+    list-style: none;
+}
+.dark-2 li a{
+    color: #0D1321 ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.kings-man{
+    display: flex;
+    justify-content: space-between;
+     width: 1140px;
+    height: 299px; 
+    
+}.king-man-1{
+    width: 346px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.king-man-2{
+    width: 346px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+
+}
+.king-man-3{
+    width: 346px;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+
+}
+
+.MI-title{
+font-size: 32px;
+font-weight: 800 px;
+text-align: center;
+padding: 24px;
+}
+.MI-description{
+    font-size: 16px;
+    font-weight: 400; 
+     width: 852px;
+    height: 52px;
+    text-align: center; 
+    margin: 0 auto;
+    padding:48px 0;
+}
+.MI-content{
+    text-align: center;
+    /* max-width:998px; */
+     margin: 0 auto; 
+     width: 1140px 484px;
+    
+}
+ .kings-man{
+    max-width: 1140px;
+    margin: 0 auto; }
+
+
+.must{
+     background-image: url('../image/handshake.jpg'); 
+     background-position:0ch;
+     max-width: 1140px; 
+     height: 313px; 
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.must-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.btn-low-1{
+    
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 20px 19px 215px;
+    margin: 0 auto;
+    color: rgba(13, 19, 33, 0.4);
+    border-radius: 8px;
+    border-color:#FFFFFF;
+}
+.btn-low-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+
+}
+.tube{
+    border-radius: 16px;
+    
 }
